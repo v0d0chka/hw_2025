@@ -1,5 +1,6 @@
 PHONY: check
 check:
 	black .
-	isort .
 	flake8 .
+	isort .
+
